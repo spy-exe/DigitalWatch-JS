@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: Poppins, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: all 0.35s ease;
+}
+.dark-mode {
+    --bg-color: #333;
+    --text-color: #f1f1f1;
+}
+.light-mode {
+    --bg-color: #f1f1f1;
+    --text-color: #333;
+}
+#clock {
+    font-family: Poppins;
+    font-size: 6rem;
+    font-weight: bold;
+    letter-spacing: 1rem;
+}
